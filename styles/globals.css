@@ -1,0 +1,88 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.btn {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.medicine-card {
+  border-left: 4px solid var(--primary-color);
+}
+
+.reminder-card {
+  border-left: 4px solid var(--success-color);
+}
+
+.refill-card {
+  border-left: 4px solid var(--warning-color);
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.medicine-info {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--primary-color), #0056b3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  margin: 0 auto 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
