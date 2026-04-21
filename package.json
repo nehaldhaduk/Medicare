@@ -1,5 +1,5 @@
 {
-  "name": "medcare-app",
+  "name": "medicare-app",
   "version": "1.0.0",
   "description": "Fullstack medication management system",
   "main": "index.js",
